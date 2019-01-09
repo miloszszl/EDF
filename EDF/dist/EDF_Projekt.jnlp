@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="EDF_Projekt.jnlp">
+  <information>
+    <title>EDF_Projekt</title>
+    <vendor>milosz</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="EDF_Projekt.jar" size="22797" download="eager" />
+    <jar href="lib\javaee-api-6.0.jar" size="979616" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="EDF_Projekt" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="edf_projekt.Main"  name="EDF_Projekt" />
+  <update check="always"/>
+</jnlp>
